@@ -17,7 +17,7 @@ diets = pd.read_csv("datasets/diets.csv")
 
 
 # load model===========================================
-svc = pickle.load(open('models/svc.pkl','rb'))
+svc = pickle.load(open('Models/svc.pkl','rb'))
 
 #============================================================
 # custome and helping functions
@@ -116,3 +116,4 @@ def blog():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port="5000", debug=True)
+
